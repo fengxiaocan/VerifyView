@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="verifLenght" format="integer" />
+    <attr name="verifStroke" format="integer" />
+    <attr name="verifBezierStroke" format="integer" />
+    <attr name="verifColor" format="color" />
+    <attr name="verifBackground" format="color" />
+    <attr name="verifSize" format="dimension" />
+    <attr name="verifText" format="string" />
+    <attr name="isNetCode" format="boolean" />
+
+    <!--随机验证码-->
+    <declare-styleable name="AuthVerifyView">
+        <attr name="verifLenght" />
+        <attr name="verifStroke" />
+        <attr name="verifBezierStroke" />
+        <attr name="verifColor" />
+        <attr name="verifBackground" />
+        <attr name="verifSize" />
+        <attr name="verifText" />
+    </declare-styleable>
+    <!--随机验证码-->
+    <declare-styleable name="RandomVerifyView">
+        <attr name="isNetCode" />
+    </declare-styleable>
+</resources>
